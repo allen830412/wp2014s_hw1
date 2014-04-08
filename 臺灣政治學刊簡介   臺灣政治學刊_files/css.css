@@ -1,0 +1,221 @@
+
+body { background: white; }
+#page { background: url(http://www.tpsr.tw/sites/tpsr.myceto.com/themes/corolla_tpsr/bg.jpg) repeat-x; }
+#branding {
+    padding: 1em 0 3em 1.5em;
+}
+#name-and-slogan {
+    padding: 3em 0 0 0;
+}
+
+#block-locale-language .block-content li {
+    float: left;
+    list-style: none;
+}
+#block-locale-language .block-content li a {
+    display: block;
+    width: 6em;
+    text-align: center;
+}
+#block-locale-language .block-content li a.active {
+    color: black;
+}
+
+#block-system-main-menu .block-content li.first {
+    border-top: 5px solid #306;
+}
+
+.region-sidebar-first .block-menu .block-content li,
+#block-system-main-menu .block-content li {
+    border: 1px solid lightgray;
+    list-style: none;
+    border-width: 0 0 1px 0;
+    margin: 0;
+}
+.region-sidebar-first .block-menu .block-content li a,
+#block-system-main-menu .block-content li a {
+    padding: .5em;
+    display: block;
+    color: black;
+}
+.region-sidebar-first .block-menu .block-content li a:hover,
+#block-system-main-menu .block-content li a:hover {
+    background: #306;
+    color: white;
+}
+
+.page-node .node-title,
+.page-paper .views-field-title {
+    border: 1px solid #306;
+    padding: .5em 1em;
+    margin: 0 0 1em 0;
+    border-width: 1px 1px 1px 8px;
+}
+
+.page-node .node-content {
+   text-align: justify;
+}
+
+.front .block-bundle-for-issue-block-1 .block-title {
+    margin: 1em 0 0 0;
+}
+.front .block-bundle-for-issue-block-1 .view-header {
+    margin: 0 0 1.5em 0;
+    font-style: italic;
+    color: gray;
+}
+.front .block-bundle-for-issue-block-1 .view-header p {
+    margin: 0;
+}
+
+iframe.pdf { width: 100%; }
+
+fieldset {
+    margin: 40px 0 0 0;
+}
+fieldset legend {
+    margin: -20px 0;
+}
+
+.field-multiple-table label {
+    padding: 0 10px;
+}
+.field-name-field-link-form  .link-field-column {
+    margin: 0 10px 0 0;
+}
+.field-widget-text-textfield  .field-add-more-submit {
+    margin: 10px 0 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    #logo { display: none; }
+}
+.editorial-board p {
+    border: 1px solid black;
+    background: #eee;
+    border-width: 1px 0;
+    line-height: 2;
+    padding: .5em 1em;
+}
+
+.editorial-board h3 {
+    margin: 0 0 1em 0;
+}
+
+.editorial-board p.rteright {
+    background: transparent;
+    border: 0;
+}
+</style>
+<style type="text/css">
+.page-issue .view-header,
+.page-current-issue .view-header {
+    margin: 0 0 1em 0;
+    padding: 0 0 1.5em 0;
+    border-bottom: 1px solid lightgray;
+    font-style: italic;
+    color: gray;
+}
+.page-issue .view-header p,
+.page-current-issue .view-header p {
+    margin: 0;
+}
+
+.page-issue .view-content .view-content .views-row,
+.page-current-issue .view-content .view-content .views-row {
+    padding: 0 0 1.5em;
+    border-bottom: 1px solid lightgray;
+}
+.page-issue .view-content .view-content .views-field-title,
+.page-current-issue .view-content .view-content .views-field-title {
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+.page-issue .view-content .view-content .views-field-body,
+.page-current-issue .view-content .view-content .views-field-body {
+    text-align: justify;
+}
+
+.page-issue .view-content .views-field-title {
+    margin: 0 0 .5em 0;
+}
+
+.page-paper .views-field-nothing,
+.page-paper .views-field-field-authors,
+.page-paper .views-field-field-full-file {
+    margin: 0 0 1em 0;
+}
+
+.page-paper .views-field-nothing {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+}
+
+.page-paper .views-field-field-authors,
+.page-paper .views-field-field-keywords {
+    text-align: center;
+}
+
+.page-paper .views-field-field-authors .field-content,
+.page-paper .views-field-field-keywords .field-content {
+    font-size: 1.25em;
+}
+
+.page-paper .views-field-body {
+    text-align: justify;
+}
+
+.page-paper .views-label-field-authors,
+.page-paper .views-label-body,
+.page-paper .views-label-field-keywords {
+    color: gray;
+    display: block;
+    text-align: center;
+}
+
+
+.page-advanced-search .view-filters {
+    border: 1px solid lightgray;
+    border-width: 0 0 1px 0;
+    margin: 0 0 1em 0;
+}
+.page-advanced-search .view-content .views-row {
+    border-bottom: 1px solid lightgray;
+    padding: 0 0 1em 0;
+    margin: 0 0 1em 0;
+}
+.page-advanced-search .view-content .views-field-title {
+    font-size: 1.5em;
+}
+.page-advanced-search .view-content .views-field-nothing {
+    margin: 0 0 1em 0;
+    color: gray;
+    font-style: italic;
+}
+.page-advanced-search .view-content .views-field-field-keywords {
+    font-size: .75em;
+}
+.page-advanced-search .view-content .views-field-field-authors {
+    color: gray;
+}
+
+.region-footer .block {
+    margin: 0;
+}
+.region-footer .block.first {
+    background: #306;
+    color: white;
+}
+.region-footer .block.first .block-inner {
+    padding: 1em;
+}
+.region-footer .block.first .block-content p {
+    margin: 0;
+}
+.region-footer .block.first .block-content a {
+    color: white;
+}
+.region-footer .block.first .block-content a:hover {
+    text-decoration: underline;
+}
